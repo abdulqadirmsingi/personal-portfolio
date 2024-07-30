@@ -72,3 +72,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
   typeWriter();
 });
 
+const navbarNav = document.getElementById("navbarNav");
+const navLinks = document.querySelectorAll(".nav-link");
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    const bsCollapse = new bootstrap.Collapse(navbarNav, {
+      toggle: false,
+    });
+    bsCollapse.hide();
+  });
+});
