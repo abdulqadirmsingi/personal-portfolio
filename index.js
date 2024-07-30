@@ -34,7 +34,7 @@ function typeWriter() {
 window.onload = typeWriter;
 
 document.addEventListener("DOMContentLoaded", (event) => {
-  const words = ["nerd", "geek", "coder", "developer", "hacker"];
+  const words = ["Mr", "Mrs", "Geek", "coder", "hacker"];
   let index = 0;
   let wordIndex = 0;
   let currentWord = "";
