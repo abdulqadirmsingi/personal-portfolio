@@ -1,0 +1,108 @@
+body {
+  font-family: "Courier New", monospace;
+  background-color: #000;
+  color: #fff;
+}
+.navbar {
+  background-color: #000 !important;
+}
+.jumbotron {
+  background-color: #000;
+  border-bottom: 1px solid #fff;
+}
+.card {
+  background-color: #000;
+  border: 1px solid #fff;
+}
+.card-title{
+    color: #43eb0f;
+}
+.card-text{
+    color: #ffffff;
+}
+.list-group-item {
+  background-color: #000;
+  color: #fff;
+  border-color: #fff;
+}
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+#terminal {
+  background-color: #000;
+  color: #0f0;
+  font-family: "Courier New", monospace;
+  padding: 20px;
+  border: 1px solid #0f0;
+  height: 300px;
+  overflow-y: auto;
+}
+#cursor {
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.price-category {
+  background-color: #000;
+  border: 1px solid #fff;
+  margin-bottom: 20px;
+}
+.price-category h3 {
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+}
+.price-item {
+  border-bottom: 1px solid #333;
+  padding: 10px;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+}
+
+footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .bi {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+footer .container {
+    max-width: 960px;
+}
+
+@media (max-width: 576px) {
+    footer .row > div {
+        margin-bottom: 30px;
+    }
+}
+
